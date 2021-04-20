@@ -1,9 +1,7 @@
-import React from 'react';
-import Typography from '@material-ui/core/Typography';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import { makeStyles } from '@material-ui/core/styles';
-import Weather from '../Features/Weather/Weather';
+import { Typography, AppBar, Toolbar, makeStyles } from "@material-ui/core";
+import React from "react";
+
+import Weather from "../Features/Weather/Weather";
 
 const useStyles = makeStyles({
   grow: {
@@ -14,7 +12,7 @@ const useStyles = makeStyles({
 export default () => {
   const classes = useStyles();
 
-  const name = "thrivikramreddy-react-assessment's";
+  const name = "thrivikram's";
   return (
     <AppBar position="static">
       <Toolbar>
